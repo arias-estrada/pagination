@@ -17,16 +17,16 @@
             <md-button flex ng-class="'md-icon-button' " ng-click="first()" ng-disabled="currentPage.pageNumber===1" id="list_page_first">
                 <md-icon>first_page</md-icon>
             </md-button>
-            <md-button flex ng-click="previous()" ng-disabled="currentPage.pageNumber===1" id="list_page_prev">
+            <md-button flex ng-click="previous()" ng-class="'md-icon-button' "  ng-disabled="currentPage.pageNumber===1" id="list_page_prev">
                 <md-icon>navigate_before</md-icon>
             </md-button>
             <md-button ng-class="'md-fab md-mini md-primary'" ng-attr-id="{{'list_page_'+($index+1)}}">
                 {{currentPage.pageNumber}}
             </md-button>
-            <md-button flex ng-click="next()" ng-disabled="currentPage.pageNumber>=totalbuttons" id="list_page_next">
+            <md-button flex ng-click="next()" ng-class="'md-icon-button' "  ng-disabled="currentPage.pageNumber>=totalbuttons" id="list_page_next">
                 <md-icon>navigate_next</md-icon>
             </md-button>
-            <md-button flex ng-click="last()" ng-disabled="currentPage.pageNumber>=totalbuttons" id="list_page_last">
+            <md-button flex ng-click="last()" ng-class="'md-icon-button' "  ng-disabled="currentPage.pageNumber>=totalbuttons" id="list_page_last">
                 <md-icon>last_page</md-icon>
             </md-button>
         </section>
