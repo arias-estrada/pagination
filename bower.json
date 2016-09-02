@@ -1,0 +1,22 @@
+{
+  "name": "pagination",
+  "authors": [
+    "Pedro Arias <arias@ocas.ca>"
+  ],
+  "description": "Add pagination to list components",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0",
+    "angular-material": "^1.1.0"
+  }
+}
