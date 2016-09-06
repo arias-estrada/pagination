@@ -1,6 +1,6 @@
 <div ng-if="show">
     <div hide-xs show-gt-xs>
-        screen
+       
         <section layout="row" layout-align="center center" layout-wrap>
             <md-button ng-click="first()" ng-disabled="currentPage.pageNumber===1" id="list_page_first">First</md-button>
             <md-button ng-click="previous()" ng-disabled="currentPage.pageNumber===1" id="list_page_prev">Previous</md-button>
@@ -12,7 +12,7 @@
         </section>
     </div>
     <div show-xs hide-gt-xs>
-        mobile
+        
         <section layout="row" layout-align="center center" layout-wrap>
             <md-button flex ng-class="'md-icon-button' " ng-click="first()" ng-disabled="currentPage.pageNumber===1" id="list_page_first">
                 <md-icon>first_page</md-icon>
